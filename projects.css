@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: url(./img/confetti-doodles.svg); */
+    background-color: black;
+}
+
+.projects_container{
+    height:100vh;
+    width:100vw;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left_container{
+    height: 90%;
+    width: 40%;
+    /* border: 2px solid blue; */
+}
+.right_container{
+    height: 90%;
+    width: 60%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card_row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 1rem; */
+    height: 30%;
+    /* border: 2px solid red; */
+    padding: 1rem;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+.card{
+    height: 100%;
+    width: 30%;
+    transition: all ease-in-out 0.3s;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.row_1 {
+  .card_1{
+    border: 5px solid rgb(52, 104, 60);
+  }
+  .card_2{
+    border: 5px solid rgb(62, 52, 104);
+  }
+  .card_3{
+    border: 5px solid rgb(144, 73, 87);
+  }
+  .card_1:hover{
+    box-shadow: rgba(44, 223, 47, 0.19) 0px 10px 20px,
+    rgba(36, 100, 52, 0.23) 0px 6px 6px,
+    inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.05);
+  }
+  .card_2:hover{
+    box-shadow: rgba(62, 52, 104, 0.19) 0px 10px 20px,
+    rgba(62, 52, 104, 0.23) 0px 6px 6px,
+    inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.05);
+  }
+  .card_3:hover{
+    box-shadow: rgba(150, 48, 69, 0.19) 0px 10px 20px,
+    rgba(150, 48, 69, 0.23) 0px 6px 6px,
+    inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.05);
+  }
+
+}
+
+
+.row_2 {
+  .card_1{
+    border: 5px solid rgb(35, 106, 134);
+  }
+  .card_2{
+    border: 5px solid rgb(215, 115, 44);
+  }
+  .card_3{
+    border: 5px solid rgb(150, 48, 131);
+  }
+  .card_1:hover{
+    box-shadow: rgba(35, 106, 134, 0.19) 0px 10px 20px,
+    rgba(35, 106, 134, 0.23) 0px 6px 6px,
+    inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.05);
+  }
+  .card_2:hover{
+    box-shadow: rgba(215, 115, 44, 0.19) 0px 10px 20px,
+    rgba(215, 115, 44, 0.23) 0px 6px 6px,
+    inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.05);
+  }
+  .card_3:hover{
+    box-shadow: rgba(150, 48, 131, 0.19) 0px 10px 20px,
+    rgba(150, 48, 131, 0.23) 0px 6px 6px,
+    inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.05);
+  }
+
+}
+
+.row_3{
+  .card_1{
+    border: 5px solid rgb(134, 35, 37);
+  }
+  .card_2{
+    border: 5px solid rgb(39, 110, 46);
+  }
+  .card_3{
+    border: 5px solid rgb(30, 15, 146);
+  }
+  .card_1:hover{
+    box-shadow: rgba(134, 35, 37, 0.19) 0px 10px 20px,
+    rgba(134, 35, 37, 0.23) 0px 6px 6px,
+    inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.05);
+  }
+  .card_2:hover{
+    box-shadow: rgba(39, 110, 46, 0.19) 0px 10px 20px,
+    rgba(39, 110, 46, 0.23) 0px 6px 6px,
+    inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.05);
+  }
+  .card_3:hover{
+    box-shadow: rgba(30, 15, 146, 0.19) 0px 10px 20px,
+    rgba(30, 15, 146, 0.23) 0px 6px 6px,
+    inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.05);
+  }
+
+}
